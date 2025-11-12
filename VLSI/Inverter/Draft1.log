@@ -1,0 +1,64 @@
+LTspice 24.1.9 for Windows
+Circuit: D:\VLSI\Inverter\Draft1.net
+Start Time: Thu Sep  4 11:18:31 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+D:\VLSI\Inverter\Draft1.net(10): Limiting rise time to 1e-05.
+
+V1 aR 0 PULSE(0 3.3 0 0 0 0.1m 0.2m 100)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\VLSI\Inverter\Draft1.net(10): Limiting fall time to 1e-05.
+
+V1 aR 0 PULSE(0 3.3 0 0 0 0.1m 0.2m 100)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\VLSI\Inverter\Draft1.net(11): Limiting rise time to 2e-05.
+
+V2 bR 0 PULSE(0 3.3 0 0 0 0.2m 0.4m 100)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\VLSI\Inverter\Draft1.net(11): Limiting fall time to 2e-05.
+
+V2 bR 0 PULSE(0 3.3 0 0 0 0.2m 0.4m 100)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\VLSI\Inverter\Draft1.net(12): Limiting rise time to 4e-05.
+
+V3 cR 0 PULSE(0 3.3 0 0 0 0.4m 0.8m 100)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+D:\VLSI\Inverter\Draft1.net(12): Limiting fall time to 4e-05.
+
+V3 cR 0 PULSE(0 3.3 0 0 0 0.4m 0.8m 100)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Warning: Simulation tolerance relaxed to achieve convergence from 3.1499999999999925e-04 to 3.1500000000000023e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 4.0499999999999933e-04 to 4.0500000000000030e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 4.0500000000000030e-04 to 4.0500000000000128e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 4.0500000000000128e-04 to 4.0500000000000225e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.0499999999999985e-04 to 6.0500000000000083e-04 seconds.
+Warning: Simulation tolerance relaxed to achieve convergence from 6.0500000000000083e-04 to 6.0500000000000180e-04 seconds.
+Total elapsed time: 0.588 seconds.
+
+Files loaded:
+D:\VLSI\Inverter\Draft1.net
+C:\Users\user\AppData\Local\LTspice\lib\cmp\standard.mos
+
